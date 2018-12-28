@@ -5,7 +5,7 @@ using BitbankDotNet.Entities;
 using McMaster.Extensions.CommandLineUtils;
 using Microsoft.Extensions.Logging;
 
-namespace Sample.Commands
+namespace BitbankApiTool.Commands
 {
     /// <summary>
     /// <see cref="Transaction"/>に関するコマンド

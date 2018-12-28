@@ -4,9 +4,9 @@ using McMaster.Extensions.CommandLineUtils;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Sample.Commands;
+using BitbankApiTool.Commands;
 
-namespace Sample
+namespace BitbankApiTool
 {
     /// <summary>
     /// サンプル

@@ -1,4 +1,4 @@
-﻿namespace Sample
+﻿namespace BitbankApiTool
 {
     /// <summary>
     /// 設定

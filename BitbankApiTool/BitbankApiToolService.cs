@@ -6,7 +6,7 @@ using BitbankDotNet.Entities;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Sample
+namespace BitbankApiTool
 {
     /// <summary>
     /// サンプルサービス

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using BitbankDotNet;
 using BitbankDotNet.Entities;
 
-namespace Sample
+namespace BitbankApiTool
 {
     /// <summary>
     /// サンプルサービスのインターフェース

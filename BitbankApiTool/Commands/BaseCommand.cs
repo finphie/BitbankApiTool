@@ -2,7 +2,7 @@
 using McMaster.Extensions.CommandLineUtils;
 using Microsoft.Extensions.Logging;
 
-namespace Sample.Commands
+namespace BitbankApiTool.Commands
 {
     /// <summary>
     /// コマンドの基底クラス
