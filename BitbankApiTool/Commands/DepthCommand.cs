@@ -24,7 +24,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public DepthCommand(ISampleService sampleService, ILogger<DepthCommand> logger)
+        public DepthCommand(IBitbankApiToolService sampleService, ILogger<DepthCommand> logger)
             : base(sampleService, logger)
         {
         }

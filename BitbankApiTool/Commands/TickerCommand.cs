@@ -24,7 +24,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public TickerCommand(ISampleService sampleService, ILogger<TickerCommand> logger)
+        public TickerCommand(IBitbankApiToolService sampleService, ILogger<TickerCommand> logger)
             : base(sampleService, logger)
         {
         }

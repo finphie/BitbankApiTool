@@ -11,7 +11,7 @@ namespace Sample
     /// <summary>
     /// サンプルサービス
     /// </summary>
-    public sealed class SampleService : ISampleService, IDisposable
+    public sealed class BitbankApiToolService : IBitbankApiToolService, IDisposable
     {
         static readonly HttpClient Client = new HttpClient()
         {
@@ -31,14 +31,14 @@ namespace Sample
         /// <summary>
         /// logger
         /// </summary>
-        readonly ILogger<SampleService> _logger;
+        readonly ILogger<BitbankApiToolService> _logger;
 
         /// <summary>
-        /// <see cref="SampleService"/>クラスの新しいインスタンスを初期化します。
+        /// <see cref="BitbankApiToolService"/>クラスの新しいインスタンスを初期化します。
         /// </summary>
         /// <param name="config">設定</param>
         /// <param name="logger">logger</param>
-        public SampleService(IOptions<Config> config, ILogger<SampleService> logger)
+        public BitbankApiToolService(IOptions<Config> config, ILogger<BitbankApiToolService> logger)
         {
             _config = config.Value;
             _logger = logger;

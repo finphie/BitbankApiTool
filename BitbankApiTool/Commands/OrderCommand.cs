@@ -32,7 +32,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public OrderCommand(ISampleService sampleService, ILogger<OrderCommand> logger)
+        public OrderCommand(IBitbankApiToolService sampleService, ILogger<OrderCommand> logger)
             : base(sampleService, logger)
         {
         }

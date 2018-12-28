@@ -39,7 +39,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public CandlestickCommand(ISampleService sampleService, ILogger<CandlestickCommand> logger)
+        public CandlestickCommand(IBitbankApiToolService sampleService, ILogger<CandlestickCommand> logger)
             : base(sampleService, logger)
         {
         }

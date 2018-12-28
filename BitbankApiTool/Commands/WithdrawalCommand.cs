@@ -24,7 +24,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public WithdrawalCommand(ISampleService sampleService, ILogger<WithdrawalCommand> logger)
+        public WithdrawalCommand(IBitbankApiToolService sampleService, ILogger<WithdrawalCommand> logger)
             : base(sampleService, logger)
         {
         }

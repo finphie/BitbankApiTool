@@ -16,7 +16,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public AssetCommand(ISampleService sampleService, ILogger<AssetCommand> logger)
+        public AssetCommand(IBitbankApiToolService sampleService, ILogger<AssetCommand> logger)
             : base(sampleService, logger)
         {
         }

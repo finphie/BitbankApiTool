@@ -13,7 +13,7 @@ namespace Sample.Commands
         /// <summary>
         /// service
         /// </summary>
-        protected readonly ISampleService Service;
+        protected readonly IBitbankApiToolService Service;
 
         /// <summary>
         /// logger
@@ -25,7 +25,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        protected BaseCommand(ISampleService sampleService, ILogger<BaseCommand> logger)
+        protected BaseCommand(IBitbankApiToolService sampleService, ILogger<BaseCommand> logger)
         {
             Service = sampleService;
             Logger = logger;

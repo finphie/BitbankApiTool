@@ -24,7 +24,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public TransactionCommand(ISampleService sampleService, ILogger<TransactionCommand> logger)
+        public TransactionCommand(IBitbankApiToolService sampleService, ILogger<TransactionCommand> logger)
             : base(sampleService, logger)
         {
         }

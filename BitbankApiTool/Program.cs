@@ -50,7 +50,7 @@ namespace Sample
 
             services.AddOptions();
             services.Configure<Config>(configuration);
-            services.AddTransient<ISampleService, SampleService>();
+            services.AddTransient<IBitbankApiToolService, BitbankApiToolService>();
         }
     }
 }

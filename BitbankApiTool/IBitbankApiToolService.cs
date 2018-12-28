@@ -8,7 +8,7 @@ namespace Sample
     /// <summary>
     /// サンプルサービスのインターフェース
     /// </summary>
-    public interface ISampleService
+    public interface IBitbankApiToolService
     {
         /// <summary>
         /// [Public API]ティッカー情報を返します。

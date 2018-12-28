@@ -16,7 +16,7 @@ namespace Sample.Commands
         /// </summary>
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
-        public StatusCommand(ISampleService sampleService, ILogger<StatusCommand> logger)
+        public StatusCommand(IBitbankApiToolService sampleService, ILogger<StatusCommand> logger)
             : base(sampleService, logger)
         {
         }
