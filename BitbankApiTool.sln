@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitbankApiTool", "BitbankApiTool\BitbankApiTool.csproj", "{C27247C1-B76D-453A-B338-B26A1483BC5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitbankApiTool", "src\BitbankApiTool\BitbankApiTool.csproj", "{C27247C1-B76D-453A-B338-B26A1483BC5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
