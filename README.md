@@ -1,0 +1,2 @@
+# BitbankApiTool
+Bitbank.cc APIのコマンドラインツールです。
