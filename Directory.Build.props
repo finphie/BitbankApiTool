@@ -3,7 +3,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
-    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)BitbankApiTool.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)OpenSource.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
   <ItemGroup>
