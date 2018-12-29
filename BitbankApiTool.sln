@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitbankApiTool", "src\BitbankApiTool\BitbankApiTool.csproj", "{C27247C1-B76D-453A-B338-B26A1483BC5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{7D507BF2-612B-4CB4-913F-FF3640683A8E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		config\OpenSource.ruleset = config\OpenSource.ruleset
+		config\stylecop.json = config\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27247C1-B76D-453A-B338-B26A1483BC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27247C1-B76D-453A-B338-B26A1483BC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27247C1-B76D-453A-B338-B26A1483BC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27247C1-B76D-453A-B338-B26A1483BC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB87206-29DC-47AE-B938-A6F10C36AF31}
+	EndGlobalSection
+EndGlobal
