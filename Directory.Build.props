@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="..\BitbankApiTool.Shared\SharedAssemblyInfo.cs" Visible="false" />
+    <Compile Include="..\BitbankApiTool.Shared\SharedAssemblyInfo.cs" />
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)config\stylecop.json" Visible="false" />
   </ItemGroup>
 
