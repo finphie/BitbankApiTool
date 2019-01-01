@@ -47,7 +47,7 @@ namespace BitbankApiTool
         Task<Asset[]> GetAssetsAsync();
 
         /// <summary>
-        /// [Private API]新規指値買い注文を行います。
+        /// [Private API]新規成行買い注文を行います。
         /// </summary>
         /// <param name="pair">通貨ペア</param>
         /// <param name="amount">数量</param>
