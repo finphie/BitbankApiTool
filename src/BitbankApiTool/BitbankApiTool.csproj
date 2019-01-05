@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="BitbankDotNet" Version="0.1.0" />
-    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.0-rc.460" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="2.2.0" />
