@@ -3,6 +3,11 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+    <Authors>finphie</Authors>
+    <Copyright>finphie</Copyright>
+    <PackageProjectUrl>https://github.com/finphie/BitbankApiTool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/finphie/BitbankApiTool</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)config\OpenSource.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
