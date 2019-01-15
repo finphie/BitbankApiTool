@@ -45,7 +45,7 @@ namespace BitbankApiTool
 
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("config.json", false)
+                .AddJsonFile("config.json", true)
                 .Build();
 
             services.AddOptions();
