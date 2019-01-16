@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Threading.Tasks;
 using BitbankDotNet;
 using BitbankDotNet.Entities;
@@ -35,7 +36,7 @@ namespace BitbankApiTool.Commands
             try
             {
                 var json = await Service.GetWithdrawalAccountsAsync(Asset).ConfigureAwait(false);
-                Logger.LogInformation(json.ToString());
+                Logger.LogInformation(string.Join(',', json.Select(x => x.ToString())));
             }
             catch (BitbankDotNetException ex)
             {

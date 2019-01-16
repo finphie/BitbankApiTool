@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using BitbankDotNet;
 using BitbankDotNet.Entities;
 using McMaster.Extensions.CommandLineUtils;
@@ -27,7 +28,7 @@ namespace BitbankApiTool.Commands
             try
             {
                 var json = await Service.GetAssetsAsync().ConfigureAwait(false);
-                Logger.LogInformation(json.ToString());
+                Logger.LogInformation(string.Join(',', json.Select(x => x.ToString())));
             }
             catch (BitbankDotNetException ex)
             {
