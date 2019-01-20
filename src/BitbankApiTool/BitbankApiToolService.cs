@@ -26,7 +26,7 @@ namespace BitbankApiTool
         /// <summary>
         /// 設定
         /// </summary>
-        readonly Config _config;
+        readonly Setting _config;
 
         /// <summary>
         /// logger
@@ -38,7 +38,7 @@ namespace BitbankApiTool
         /// </summary>
         /// <param name="config">設定</param>
         /// <param name="logger">logger</param>
-        public BitbankApiToolService(IOptions<Config> config, ILogger<BitbankApiToolService> logger)
+        public BitbankApiToolService(IOptions<Setting> config, ILogger<BitbankApiToolService> logger)
         {
             _config = config.Value;
             _logger = logger;

@@ -3,7 +3,7 @@
     /// <summary>
     /// 設定
     /// </summary>
-    public class Config
+    public class Setting
     {
         /// <summary>
         /// APIキー

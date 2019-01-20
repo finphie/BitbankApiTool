@@ -45,11 +45,11 @@ namespace BitbankApiTool
 
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("config.json", true)
+                .AddJsonFile("setting.json", true)
                 .Build();
 
             services.AddOptions();
-            services.Configure<Config>(configuration);
+            services.Configure<Setting>(configuration);
             services.AddTransient<IBitbankApiToolService, BitbankApiToolService>();
         }
     }
