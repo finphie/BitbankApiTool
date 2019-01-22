@@ -63,8 +63,8 @@ namespace BitbankApiTool
             => _restApi.GetTransactionsAsync(pair);
 
         /// <inheritdoc/>
-        public Task<Ohlcv[]> GetCandlesticksAsync(CurrencyPair pair, CandleType type, DateTimeOffset date)
-            => _restApi.GetCandlesticksAsync(pair, type, date);
+        public Task<Ohlcv[]> GetCandlesticksAsync(CurrencyPair pair, CandleType type, DateTimeOffset dateTime)
+            => _restApi.GetCandlesticksAsync(pair, type, dateTime);
 
         /// <inheritdoc/>
         public Task<Asset[]> GetAssetsAsync()

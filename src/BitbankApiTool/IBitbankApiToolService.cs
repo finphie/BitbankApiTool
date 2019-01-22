@@ -36,9 +36,9 @@ namespace BitbankApiTool
         /// </summary>
         /// <param name="pair">通貨ペア</param>
         /// <param name="type">ローソク足の期間</param>
-        /// <param name="date">日付</param>
+        /// <param name="dateTime">日付</param>
         /// <returns>ローソク足データ</returns>
-        Task<Ohlcv[]> GetCandlesticksAsync(CurrencyPair pair, CandleType type, DateTimeOffset date);
+        Task<Ohlcv[]> GetCandlesticksAsync(CurrencyPair pair, CandleType type, DateTimeOffset dateTime);
 
         /// <summary>
         /// [Private API]アセット一覧を返します。
