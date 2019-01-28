@@ -18,6 +18,7 @@ namespace BitbankApiTool.Commands
     [Subcommand(typeof(TradeCommand))]
     [Subcommand(typeof(WithdrawalCommand))]
     [Subcommand(typeof(StatusCommand))]
+    [Subcommand(typeof(SettingCommand))]
     public class Command : BaseCommand
     {
         /// <summary>

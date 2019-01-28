@@ -73,5 +73,11 @@ namespace BitbankApiTool
         /// </summary>
         /// <returns>取引所ステータス</returns>
         Task<HealthStatus[]> GetStatusesAsync();
+
+        /// <summary>
+        /// 通貨ペア詳細一覧を返します。
+        /// </summary>
+        /// <returns>通貨ペア詳細一覧</returns>
+        Task<CurrencyPairSetting[]> GetCurrencyPairSettingsAsync();
     }
 }

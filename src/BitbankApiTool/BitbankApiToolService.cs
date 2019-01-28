@@ -85,5 +85,9 @@ namespace BitbankApiTool
         /// <inheritdoc/>
         public Task<HealthStatus[]> GetStatusesAsync()
             => _restApi.GetStatusesAsync();
+
+        /// <inheritdoc/>
+        public Task<CurrencyPairSetting[]> GetCurrencyPairSettingsAsync()
+            => _restApi.GetCurrencyPairSettingsAsync();
     }
 }
