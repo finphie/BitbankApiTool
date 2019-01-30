@@ -9,8 +9,8 @@ BitbankApiToolは、[Bitbank.cc](https://bitbank.cc)のAPIをコマンドライ�
 ## 依存ライブラリ
 
 - [.NET Core](https://dotnet.microsoft.com/download) 2.2.0+
-- [BitbankDotNet](https://github.com/finphie/BitbankDotNet) 0.1.1
-- [McMaster.Extensions.CommandLineUtils](https://github.com/natemcmaster/CommandLineUtils) 2.3.0
+- [BitbankDotNet](https://github.com/finphie/BitbankDotNet) 0.2.1
+- [McMaster.Extensions.CommandLineUtils](https://github.com/natemcmaster/CommandLineUtils) 2.3.1
 - [Microsoft.Extensions.Configuration.Json](https://github.com/aspnet/Extensions) 2.2.0
 - [Microsoft.Extensions.DependencyInjection](https://github.com/aspnet/Extensions) 2.2.0
 - [Microsoft.Extensions.Logging.Console](https://github.com/aspnet/Extensions) 2.2.0
