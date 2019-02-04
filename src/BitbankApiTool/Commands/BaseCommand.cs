@@ -39,7 +39,7 @@ namespace BitbankApiTool.Commands
         protected virtual Task OnExecuteAsync(CommandLineApplication application)
         {
             application.ShowHelp();
-            return Task.FromResult(default(object));
+            return Task.CompletedTask;
         }
     }
 }
