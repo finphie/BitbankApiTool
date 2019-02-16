@@ -4,10 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RuntimeIdentifiers>win-x64;linux-x64;osx-x64</RuntimeIdentifiers>
-    <PackAsTool>true</PackAsTool>
-    <Description>Bitbank.cc APIのコマンドラインツールです。</Description>
-    <PackageTags>bitbank</PackageTags>
-    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
