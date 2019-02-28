@@ -40,8 +40,7 @@ namespace BitbankApiTool
         /// <param name="logger">logger</param>
         public BitbankApiToolService(IOptions<Setting> config, ILogger<BitbankApiToolService> logger)
         {
-            _config = config.Value;
-            _logger = logger;
+            (_config, _logger) = (config.Value, logger);
 
             _restApi = new BitbankRestApiClient(Client, _config.Key, _config.Secret);
         }

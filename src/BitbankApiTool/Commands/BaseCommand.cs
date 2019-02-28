@@ -26,10 +26,7 @@ namespace BitbankApiTool.Commands
         /// <param name="sampleService">service</param>
         /// <param name="logger">logger</param>
         protected BaseCommand(IBitbankApiToolService sampleService, ILogger<BaseCommand> logger)
-        {
-            Service = sampleService;
-            Logger = logger;
-        }
+            => (Service, Logger) = (sampleService, logger);
 
         /// <summary>
         /// デフォルトの処理
